@@ -1,0 +1,27 @@
+# Ignore all .idea files
+.idea/
+
+# Ignore workspace and project-specific files
+*.iml
+*.iws
+*.ipr
+
+# Ignore IntelliJ-specific metadata
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Ignore logs and indexed data
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Ignore gradle and maven related files (if applicable)
+.idea/libraries/
+.idea/artifacts/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
+# Ignore VCS-related files
+.idea/vcs.xml

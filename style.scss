@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  p{
+    margin-top: 10vh;
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+  }
+  img{
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgb(98, 48, 121), 0 0 20px rgb(98, 48, 121), 0 0 30px rgb(98, 48, 121);
+    animation: glowing-box-shadow 5s ease-in-out infinite;
+  }
+}
+
+@keyframes glowing-box-shadow {
+  0% {
+    box-shadow: 0 0 10px rgb(98, 48, 121), 0 0 20px rgb(98, 48, 121), 0 0 30px rgb(98, 48, 121);
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(98, 48, 121), 0 0 40px rgb(98, 48, 121), 0 0 60px rgb(98, 48, 121);
+  }
+  100% {
+    box-shadow: 0 0 10px rgb(98, 48, 121), 0 0 20px rgb(98, 48, 121), 0 0 30px rgb(98, 48, 121);
+  }
+}
